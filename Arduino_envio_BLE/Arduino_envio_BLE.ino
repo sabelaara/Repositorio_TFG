@@ -60,7 +60,7 @@ void setup() {
   Serial.println(BLE.address());
 }
 
-// Se miden los valores del giróscopo en reposo 
+// Calcula el valor medio de los valores del giróscopo obtenidos en reposo  
 // para corregir la deriva de las mediciones posteriores
 void calibrateIMU(int delayMillis, int calibrationMillis) {
   int calibrationCount = 0;
