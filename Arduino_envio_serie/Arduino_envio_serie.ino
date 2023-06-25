@@ -27,7 +27,7 @@ void setup() {
   calibrateIMU(250, 500);
 }
 
-// Se miden los valores del giróscopo en reposo 
+// Calcula el valor medio de los valores del giróscopo obtenidos en reposo 
 // para corregir la deriva de las mediciones posteriores
 void calibrateIMU(int delayMillis, int calibrationMillis) {
 
